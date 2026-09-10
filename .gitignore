@@ -1,0 +1,7 @@
+
+berturk-ner-model/
+
+
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
