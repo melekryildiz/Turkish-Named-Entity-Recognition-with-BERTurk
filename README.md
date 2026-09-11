@@ -90,3 +90,11 @@ The trained model was tested via the inference `pipeline` on 20 different senten
 *   **Expected:** Meta `(ORG)`
 *   **Model's Prediction:** None (Not found)
 *   **Reason:** Being a relatively new and specific entity name not frequently seen in the training data, combined with the apostrophe and the genitive suffix (`'nın`), caused the model to miscalculate the word boundaries and assign it an 'O' tag.
+
+
+## Installation
+
+You can run the following command in your terminal to install the libraries used in the project:
+
+```bash
+pip install torch transformers datasets evaluate pandas numpy scikit-learn
