@@ -97,4 +97,5 @@ The trained model was tested via the inference `pipeline` on 20 different senten
 You can run the following command in your terminal to install the libraries used in the project:
 
 ```bash
-pip install torch transformers datasets evaluate pandas numpy scikit-learn
+pip install requirements.txt
+
